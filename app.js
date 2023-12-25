@@ -5,7 +5,7 @@ outputDiv=document.querySelector('#output');
 
 
 btnTranslate.addEventListener('click', function functionName() {
-    console.log(txtInput.value);        //THIS is outputed on console.   (.value is used to read the values)//
+    console.log(txtInput.value);        //This is outputed on console.   (.value is used to read the values)//
     outputDiv.innerText ="translated: " + txtInput.value      // .innerText is used to wirte values
 })
 
