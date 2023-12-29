@@ -28,10 +28,6 @@ btnTranslate.addEventListener('click', function functionName() {
 
 
 
-
-
-
-
 //                 2ND WAY TOWRITE A FUNCTION
 // btnTranslate.addEventListener('click',functionName)
 // function functionName()
@@ -39,43 +35,3 @@ btnTranslate.addEventListener('click', function functionName() {
 
 //     console.log('clicked!');  
 //   };
-
-
-
-
-
-
-
-
-
-
-// btnTranslate=document.querySelector('#btn-translate');
-// txtInput=document.querySelector('#txt-input');
-// outputDiv=document.querySelector('#output');
-// // console.log(outputDiv);   (By this we can output any html element on onsole)
-
-// var serverURL = "https://api.funtranslatons.com/translate/minion.json"
-
-// function getTranslationURL(text) {
-//     return serverURL + "?" + "text=" + text
-// }
-
-// function errorHandler(error) {
-//     console.log("error occured", error);
-//     alert("something went wrong with server! tyr again after some time")
-// }
-
-// function clickHandler() {
-//     var inputText = txtInput.value;
-
-//     fetch(getTranslationURL(inputText))
-//     .then(Response => Response.json())
-//     .then(json => {
-//         var translatedText = json.contents.translated;
-//         outputDiv.innerText = translatedText;
-//     })
-//     .catch(errorHandler)
-// };
-
-
-// btnTranslate.addEventListener('click', clickHandler)
