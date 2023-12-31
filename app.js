@@ -23,12 +23,11 @@ btnTranslate.addEventListener('click', function functionName() {
         outputDiv.innerText = translatedText;
     })
     .catch(errorHandler)
-
 })
 
 
 
-//                 2ND WAY TOWRITE A FUNCTION
+//                 2ND WAY TO WRITE A FUNCTION
 // btnTranslate.addEventListener('click',functionName)
 // function functionName()
 // {

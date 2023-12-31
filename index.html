@@ -4,41 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-        textarea {
-            border: 1px solid black;
-            height: 20vh;
-            width: 40vh;
-            padding: 1rem;
-            display: block;
-            margin: 1rem;
-           
-        }
-        button {
-            margin-top: 2%;
-            display: block;
-            margin: 1rem;
-        }
-        #output {
-            border: 1px solid black;
-            height: 20vh;
-            width: 40vh;
-            padding: 1rem;
-            display: block;
-            margin: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>talk banana</h1>
-    <textarea name="" id="txt-input" placeholder="put your sentence in english here and we will translate it to banana."></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger; font-weight: bolder;" >Output will come here 👇</div>
+    <h1 id="heading">talk banana</h1>
+
+    <br>
+    <br>
+
+    <textarea id="txt-input" placeholder="put your sentence in english here and we will translate it to banana language."></textarea>
+
+    <br>
+
+    <div id="btn-container">
+        <button id="btn-translate">Translate</button>
+    </div>
+
+    <div id="output-refrence" style="font-size: larger; font-weight: bolder;" >Output will come here 👇</div>
+
     <div id="output">Translated Text</div>
+    <br>
 
-
+    
+        <div id="footer">
+            <h2>about</h2>
+            <p>are you a fan of minions? What kind of language do the Minions speak? The Minions speak Minionese, sometimes called “the Banana language”. Minionese is what's known as a constructed language or “conlang”. Conlangs are often a feature of works of fantasy and science fiction</p>
+        </div>
+    
 
 
     <script src="app.js"></script>
+
 </body>
 </html>
